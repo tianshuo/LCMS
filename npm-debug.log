@@ -1,0 +1,167 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'hiredis' ]
+2 info using npm@1.1.32
+3 info using node@v0.8.0
+4 verbose config file C:\Documents and Settings\Administrator\.npmrc
+5 verbose config file c:\Program Files\nodejs\etc\npmrc
+6 verbose config file c:\Program Files\nodejs\node_modules\npm\npmrc
+7 verbose read json g:\快盘\代码\knowledge2\package.json
+8 verbose read json g:\快盘\代码\knowledge2\node_modules\express\package.json
+9 verbose read json g:\快盘\代码\knowledge2\node_modules\redis\package.json
+10 verbose read json g:\快盘\代码\knowledge2\node_modules\share\package.json
+11 verbose read json g:\快盘\代码\knowledge2\package.json
+12 verbose cache add [ 'hiredis', null ]
+13 silly cache add name=undefined spec="hiredis" args=["hiredis",null]
+14 verbose parsed url { pathname: 'hiredis', path: 'hiredis', href: 'hiredis' }
+15 verbose addNamed [ 'hiredis', '' ]
+16 verbose addNamed [ null, '' ]
+17 silly addNameRange { name: 'hiredis', range: '', hasData: false }
+18 verbose url raw hiredis
+19 verbose url resolving [ 'https://registry.npmjs.org/', './hiredis' ]
+20 verbose url resolved https://registry.npmjs.org/hiredis
+21 verbose etag "BRUV7WGCXPQ3G5T9TH923J1NV"
+22 http GET https://registry.npmjs.org/hiredis
+23 http 304 https://registry.npmjs.org/hiredis
+24 silly registry.get cb [ 304,
+24 silly registry.get   { server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+24 silly registry.get     etag: '"BRUV7WGCXPQ3G5T9TH923J1NV"',
+24 silly registry.get     date: 'Thu, 30 Aug 2012 08:17:27 GMT',
+24 silly registry.get     'content-length': '0' } ]
+25 verbose etag hiredis from cache
+26 silly addNameRange number 2 { name: 'hiredis', range: '', hasData: true }
+27 silly addNameRange versions [ 'hiredis',
+27 silly addNameRange   [ '0.1.0',
+27 silly addNameRange     '0.1.1',
+27 silly addNameRange     '0.1.2',
+27 silly addNameRange     '0.1.3',
+27 silly addNameRange     '0.1.4',
+27 silly addNameRange     '0.1.5',
+27 silly addNameRange     '0.1.6',
+27 silly addNameRange     '0.1.8',
+27 silly addNameRange     '0.1.9',
+27 silly addNameRange     '0.1.10',
+27 silly addNameRange     '0.1.12',
+27 silly addNameRange     '0.1.13',
+27 silly addNameRange     '0.1.14' ] ]
+28 verbose read json C:\Documents and Settings\Administrator\Application Data\npm-cache\hiredis\0.1.14\package\package.json
+29 silly resolved [ { name: 'hiredis',
+29 silly resolved     description: 'Wrapper for reply processing code in hiredis',
+29 silly resolved     version: '0.1.14',
+29 silly resolved     homepage: 'http://github.com/pietern/hiredis-node',
+29 silly resolved     author: { name: 'Pieter Noordhuis', email: 'pcnoordhuis@gmail.com' },
+29 silly resolved     main: 'hiredis',
+29 silly resolved     directories: { lib: '.' },
+29 silly resolved     scripts: { preinstall: 'make || gmake', test: 'node test/reader.js' },
+29 silly resolved     engines: { node: '*' },
+29 silly resolved     readme: '',
+29 silly resolved     _id: 'hiredis@0.1.14',
+29 silly resolved     _from: 'hiredis' } ]
+30 info install hiredis@0.1.14 into g:\快盘\代码\knowledge2
+31 info installOne hiredis@0.1.14
+32 verbose from cache C:\Documents and Settings\Administrator\Application Data\npm-cache\hiredis\0.1.14\package\package.json
+33 info g:\快盘\代码\knowledge2\node_modules\hiredis unbuild
+34 verbose read json g:\快盘\代码\knowledge2\node_modules\hiredis\package.json
+35 verbose tar unpack C:\Documents and Settings\Administrator\Application Data\npm-cache\hiredis\0.1.14\package.tgz
+36 silly gunzTarPerm modes [ '755', '644' ]
+37 silly gunzTarPerm extractEntry package.json
+38 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+39 silly gunzTarPerm extractEntry README
+40 silly gunzTarPerm modified mode [ 'README', 438, 420 ]
+41 silly gunzTarPerm extractEntry bench.js
+42 silly gunzTarPerm modified mode [ 'bench.js', 438, 420 ]
+43 silly gunzTarPerm extractEntry hiredis.js
+44 silly gunzTarPerm modified mode [ 'hiredis.js', 438, 420 ]
+45 silly gunzTarPerm extractEntry parser_bench.js
+46 silly gunzTarPerm modified mode [ 'parser_bench.js', 438, 420 ]
+47 silly gunzTarPerm extractEntry Makefile
+48 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+49 silly gunzTarPerm extractEntry deps/hiredis/README.md
+50 silly gunzTarPerm modified mode [ 'deps/hiredis/README.md', 438, 420 ]
+51 silly gunzTarPerm extractEntry deps/hiredis/example.c
+52 silly gunzTarPerm modified mode [ 'deps/hiredis/example.c', 438, 420 ]
+53 silly gunzTarPerm extractEntry deps/hiredis/async.h
+54 silly gunzTarPerm modified mode [ 'deps/hiredis/async.h', 438, 420 ]
+55 silly gunzTarPerm extractEntry deps/hiredis/CHANGELOG.md
+56 silly gunzTarPerm modified mode [ 'deps/hiredis/CHANGELOG.md', 438, 420 ]
+57 silly gunzTarPerm extractEntry deps/hiredis/COPYING
+58 silly gunzTarPerm modified mode [ 'deps/hiredis/COPYING', 438, 420 ]
+59 silly gunzTarPerm extractEntry deps/hiredis/dict.c
+60 silly gunzTarPerm modified mode [ 'deps/hiredis/dict.c', 438, 420 ]
+61 silly gunzTarPerm extractEntry deps/hiredis/dict.h
+62 silly gunzTarPerm modified mode [ 'deps/hiredis/dict.h', 438, 420 ]
+63 silly gunzTarPerm extractEntry deps/hiredis/example-ae.c
+64 silly gunzTarPerm modified mode [ 'deps/hiredis/example-ae.c', 438, 420 ]
+65 silly gunzTarPerm extractEntry deps/hiredis/example-libev.c
+66 silly gunzTarPerm modified mode [ 'deps/hiredis/example-libev.c', 438, 420 ]
+67 silly gunzTarPerm extractEntry deps/hiredis/example-libevent.c
+68 silly gunzTarPerm modified mode [ 'deps/hiredis/example-libevent.c', 438, 420 ]
+69 silly gunzTarPerm extractEntry deps/hiredis/async.c
+70 silly gunzTarPerm modified mode [ 'deps/hiredis/async.c', 438, 420 ]
+71 silly gunzTarPerm extractEntry deps/hiredis/fmacros.h
+72 silly gunzTarPerm modified mode [ 'deps/hiredis/fmacros.h', 438, 420 ]
+73 silly gunzTarPerm extractEntry deps/hiredis/hiredis.c
+74 silly gunzTarPerm modified mode [ 'deps/hiredis/hiredis.c', 438, 420 ]
+75 silly gunzTarPerm extractEntry deps/hiredis/hiredis.h
+76 silly gunzTarPerm modified mode [ 'deps/hiredis/hiredis.h', 438, 420 ]
+77 silly gunzTarPerm extractEntry deps/hiredis/Makefile
+78 silly gunzTarPerm modified mode [ 'deps/hiredis/Makefile', 438, 420 ]
+79 silly gunzTarPerm extractEntry deps/hiredis/net.c
+80 silly gunzTarPerm modified mode [ 'deps/hiredis/net.c', 438, 420 ]
+81 silly gunzTarPerm extractEntry deps/hiredis/net.h
+82 silly gunzTarPerm modified mode [ 'deps/hiredis/net.h', 438, 420 ]
+83 silly gunzTarPerm extractEntry deps/hiredis/adapters/ae.h
+84 silly gunzTarPerm modified mode [ 'deps/hiredis/adapters/ae.h', 438, 420 ]
+85 silly gunzTarPerm extractEntry deps/hiredis/adapters/libev.h
+86 silly gunzTarPerm modified mode [ 'deps/hiredis/adapters/libev.h', 438, 420 ]
+87 silly gunzTarPerm extractEntry deps/hiredis/adapters/libevent.h
+88 silly gunzTarPerm modified mode [ 'deps/hiredis/adapters/libevent.h', 438, 420 ]
+89 silly gunzTarPerm extractEntry deps/hiredis/sds.c
+90 silly gunzTarPerm modified mode [ 'deps/hiredis/sds.c', 438, 420 ]
+91 silly gunzTarPerm extractEntry deps/hiredis/sds.h
+92 silly gunzTarPerm modified mode [ 'deps/hiredis/sds.h', 438, 420 ]
+93 silly gunzTarPerm extractEntry deps/hiredis/test.c
+94 silly gunzTarPerm modified mode [ 'deps/hiredis/test.c', 438, 420 ]
+95 silly gunzTarPerm extractEntry reader.cc
+96 silly gunzTarPerm modified mode [ 'reader.cc', 438, 420 ]
+97 silly gunzTarPerm extractEntry reader.h
+98 silly gunzTarPerm modified mode [ 'reader.h', 438, 420 ]
+99 silly gunzTarPerm extractEntry hiredis.cc
+100 silly gunzTarPerm modified mode [ 'hiredis.cc', 438, 420 ]
+101 silly gunzTarPerm extractEntry test/reader.js
+102 silly gunzTarPerm modified mode [ 'test/reader.js', 438, 420 ]
+103 silly gunzTarPerm extractEntry wscript
+104 silly gunzTarPerm modified mode [ 'wscript', 438, 420 ]
+105 verbose read json g:\快盘\代码\knowledge2\node_modules\hiredis\package.json
+106 info preinstall hiredis@0.1.14
+107 verbose unsafe-perm in lifecycle true
+108 silly exec cmd "/c" "make || gmake"
+109 silly cmd,/c,make || gmake,g:\快盘\代码\knowledge2\node_modules\hiredis spawning
+110 info hiredis@0.1.14 Failed to exec preinstall script
+111 info g:\快盘\代码\knowledge2\node_modules\hiredis unbuild
+112 verbose from cache g:\快盘\代码\knowledge2\node_modules\hiredis\package.json
+113 info preuninstall hiredis@0.1.14
+114 info uninstall hiredis@0.1.14
+115 verbose true,g:\快盘\代码\knowledge2\node_modules,g:\快盘\代码\knowledge2\node_modules unbuild hiredis@0.1.14
+116 info postuninstall hiredis@0.1.14
+117 error hiredis@0.1.14 preinstall: `make || gmake`
+117 error `cmd "/c" "make || gmake"` failed with 1
+118 error Failed at the hiredis@0.1.14 preinstall script.
+118 error This is most likely a problem with the hiredis package,
+118 error not with npm itself.
+118 error Tell the author that this fails on your system:
+118 error     make || gmake
+118 error You can get their info via:
+118 error     npm owner ls hiredis
+118 error There is likely additional logging output above.
+119 error System Windows_NT 5.1.2600
+120 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "hiredis"
+121 error cwd g:\快盘\代码\knowledge2
+122 error node -v v0.8.0
+123 error npm -v 1.1.32
+124 error code ELIFECYCLE
+125 error message hiredis@0.1.14 preinstall: `make || gmake`
+125 error message `cmd "/c" "make || gmake"` failed with 1
+126 verbose exit [ 1, true ]
